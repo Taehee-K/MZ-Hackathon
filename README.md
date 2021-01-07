@@ -12,11 +12,13 @@
 
 파일 준비
 --------	
-### 채점용 데이터 평가용 prediction.py와 같은 경로에 저장하기
+### 채점용 데이터(test_intent.txt, test_sent.txt) 평가용 prediction.py와 같은 경로에 저장하기
 
-### test 데이터 경로 bert_docker 파일에 지정해 주기 (기존 dev.txt를 채점용 데이터 test.txt파일로 바꿔주기)
+### test 데이터 경로 prediction.py 파일에 지정해 주기 (기존 dev.txt를 채점용 데이터 test.txt파일로 바꿔주기)
     line 16: test = pd.read_csv('dev.txt', sep='\t', names=['purpose','sentence'], encoding='utf-8')
     -> test = pd.read_csv('test.txt', sep='\t', names=['purpose','sentence'], encoding='utf-8')
+    
+    > prediction_test.py 에 경로 수정 되어 있음. 
 
 도커에서 prediction.py 실행
 --------------------------
