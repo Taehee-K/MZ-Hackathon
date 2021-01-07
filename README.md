@@ -17,8 +17,7 @@
 ### test 데이터 경로 prediction.py 파일에 지정해 주기 (기존 dev.txt를 채점용 데이터 test.txt파일로 바꿔주기)
     line 16: test = pd.read_csv('dev.txt', sep='\t', names=['purpose','sentence'], encoding='utf-8')
     -> test = pd.read_csv('test.txt', sep='\t', names=['purpose','sentence'], encoding='utf-8')
-    
-    > prediction_test.py 에 경로 수정 되어 있음. 
+> prediction_test.py 에 경로 수정 되어 있음. 
 
 도커에서 prediction.py 실행
 --------------------------
