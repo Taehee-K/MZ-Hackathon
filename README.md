@@ -6,7 +6,7 @@
 ---------
     - bert_epoch15(save_model).py: 훈련 스크립트 (google colab ipynb notebook을 .py형식으로 저장한 파일)
 	- saved_model_epoch15: 훈련된 모델 파일이 저장된 폴더 
-	- prediction.py: 평가용 prediction.py --> test data 사용시 기존 dev.txt 읽어오는 경로 수정 필요 
+	- prediction.py: 평가용 script --> prediction_test.py에 채점용 데이터 경로설정 되어있음.
 	- train.txt: 훈련용 데이터 
 	- dev.txt: 훈련시 검증용 데이터 
 
