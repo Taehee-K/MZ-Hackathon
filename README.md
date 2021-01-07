@@ -71,5 +71,9 @@
     4. Evaluation
     5. Model Saving for Later Use
     6. Validate Saved Model
-        
+    
+    
+    
+Dev Accuracy: 71.03%
+Test Accuracy: 71.39%
         
