@@ -74,6 +74,6 @@
     
     
     
-Dev Accuracy: 71.03%	
+Dev Accuracy: 71.03%		
 Test Accuracy: 71.39%
         
